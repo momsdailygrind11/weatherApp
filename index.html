@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+
+    </head>
+    <body>
+
+        <h1>What is your weather?</h1>
+
+        <p>
+
+          
+        </p>
+
+        <script>
+            function showWeather(zip) {
+    // TODO: build url and make fetch call here
+
+    fetch ('api.openweathermap.org/data/2.5/weather?zip={zip},us&units=imperial&appid={3175e8154c7a7afe312bd0cd6cf6b338}')
+.then(response => response.json())
+.then(data => console.log(data));
+    
+    console.log('showWeather called for zip code:', zip); 
+    // the above line writes to the browsers debugger console, it does not appear on the page.
+}
+            
+        </script>
+    </body>
+</html>

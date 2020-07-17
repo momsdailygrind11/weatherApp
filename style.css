@@ -1,0 +1,28 @@
+#weatherShow{
+            
+    width: 300px;
+    border: 15px solid grey;
+    padding: 100px;
+    margin: 20px;
+    
+          }
+            
+      .thunderstorms{
+          background-color: rgb(44, 36, 70);
+      }
+      .drizzle{
+              background-color:rgb(46, 104, 128);
+          
+      }
+      .rain{
+          background-color:rgb(60, 150, 138);
+      }
+      .snow{
+          background-color:pink;
+      }
+      .atmosphere{
+          background-color:red;
+      }
+      .clearskies{
+          background-color:yellow;
+      }
